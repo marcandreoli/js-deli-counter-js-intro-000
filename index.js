@@ -2,6 +2,7 @@ var katzDeli = [];
 
 function takeANumber(katzDeliLine, name) {
   katzDeli.push(name);
+  katzDeliLine = katzDeliLine + 1;
   console.log("Welcome, ${name}. You are number ${katzDeli.length} in line")
   //for (var i = 0; i < katzDeliLine.length; i++) {
     //katzDeliLine = katzDeliLine +1;
