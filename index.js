@@ -19,7 +19,9 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty.";
   } else {
     for (let i = 0; i < katzDeliLine.length; i++) {
-      return `The line is currently: ${i+1}. ${katzDeliLine}.`
+      var array = [];
+      return `The line is currently: `
+      array.push(`${i+1}. ${katzDeliLine}`)
     }
   }
 }
